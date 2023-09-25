@@ -31,7 +31,7 @@ jobs:
         run: pip install --upgrade pip 
         
       - name: Install dependencies
-        run: pip3 freeze > requirements.txt
+        run: pip freeze > requirements.txt
              pip install -r requirements.txt
         
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
